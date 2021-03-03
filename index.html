@@ -6,13 +6,12 @@
 		<meta name="author" content="Nikola Jovanović"/>
 		<meta name="Description" content="Dobrodošli na DžoniPhotoshop, najbolju fotošop stranicu u regionu. Ako volite fotošop radove ili vam treba slika za posebne potrebe, na pravom ste mestu!" />
 		<meta name="Keywords" content="Fotošop, slika, umetnost" />
-		<link rel="stylesheet" type="text/css" href="stajl.css"/>
-		<link rel="stylesheet" type="text/css" href="rsp.css"/>
+		<link rel="stylesheet" type="text/css" href="stajl.scss"/>
+		<!--<link rel="stylesheet" type="text/css" href="rsp.css"/>-->
 		<!--<link rel="stylesheet" type="text/css" href="rsp.scss"/>-->
 		<link rel="preconnect" href="https://fonts.gstatic.com"/>
 		<link rel="icon" href="slike/ps.jpg" type="image/jpg" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name=”viewport” content=”width=device-width, initial-scale=1;”>
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -179,7 +178,7 @@
 					<div class="flip-card">
 					  <div class="flip-card-inner">
 						<div class="flip-card-front">
-							<i class="fab fa-less"></i>
+						  <img src="slike/ps.png" alt="Avatar" />
 						</div>
 						<!-- GLANII -->
 						<div class="flip-card-back">
@@ -253,7 +252,13 @@
 				</div>
 			</div>
 		</div>
-		
+		<div id="cetvrti">
+			<h2><a name="4">LANGUAGES</a></h2>
+			<div id="jezici">
+				<img src="slike/bf.gif" alt="British flag" />
+				<img src="slike/fr.gif" alt="France flag" />
+			</div>
+		</div>
 		<div id="peti">
 			<h2><a name="5">PROJECTS</a></h2>
 			<div id="pu">
@@ -285,7 +290,7 @@
 			<div id="su">
 				<form>
 					  <p>
-						<label>Name and surname</label><br>
+						<label>Ime i prezime</label><br>
 						<input class="input" type="text" name="first_name">
 					  </p>
 					  <p>
@@ -293,11 +298,11 @@
 						<input type="email" name="email" required>
 					  </p>
 					  <p>
-						<label>Phone number</label><br>
+						<label>Broj telefona</label><br>
 						<input type="tel" name="telefon">
 					  </p>
 					  <p>
-						<label>Your message</label><br>
+						<label>Napišite poruku</label><br>
 						<textarea name="Text1" cols="40" rows="3"></textarea>
 					  </p>
 					  <p>
