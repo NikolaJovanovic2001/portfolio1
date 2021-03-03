@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body {
+  height: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 
 header {
   width: 100%;
-  height: 660px;
+  height: 100vh;
   background-image: url("slike/sl9.jpg");
   background-size: cover;
   background-position: center;
@@ -569,7 +573,7 @@ header i:hover {
       -ms-flex-align: center;
           align-items: center;
   background: #170aff;
-  background: linear-gradient(45deg, rgba(23, 10, 255, 0.6) 0%, rgba(103, 103, 150, 0.6) 60%, rgba(0, 212, 255, 0.6) 100%);
+  background: linear-gradient(45deg, rgba(23, 10, 255, 0.86) 0%, rgba(103, 103, 150, 0.91) 60%, rgba(0, 212, 255, 0.97) 100%);
   text-align: center;
   opacity: 0;
   -webkit-transition: 0.5s;
@@ -1348,8 +1352,8 @@ footer ol li a .fa {
   #unutrasnji {
     width: 100%;
     height: auto;
-    margin-left: none;
-    margin-right: none;
+    margin-left: 0px;
+    margin-right: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1360,7 +1364,7 @@ footer ol li a .fa {
   }
   #u1 {
     float: none;
-    height: 300px;
+    height: 450px;
     width: 40%;
     margin-left: 30%;
   }
@@ -1386,6 +1390,100 @@ footer ol li a .fa {
   .container .sestougao {
     width: 40%;
   }
+  .flip-card {
+    width: 88%;
+    height: 400px;
+  }
+  .flip-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .flip-card p {
+    font-size: 24px;
+    margin: 3px;
+  }
+  #heder p {
+    font-size: 50px;
+  }
+  #heder nav ul li a {
+    font-size: 20px;
+  }
+  #sesti {
+    height: 1300px;
+  }
+  label {
+    font-size: 1.8em;
+  }
+  #su {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #su form {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #su form label {
+    margin-left: 10%;
+  }
+  #su form input {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #su form textarea {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #su form button {
+    width: 170px;
+    height: 70px;
+    margin-left: 9%;
+  }
+  #su form button p {
+    font-size: 20px;
+  }
+  #su #und {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 30px;
+  }
+  #su #und p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+  }
+  #su #und i {
+    margin: 10px;
+  }
+  .container .sestougao {
+    height: 500px;
+  }
+  .container .sestougao .oblik {
+    height: 500px;
+  }
+  .container .sestougao .oblik img {
+    height: 500px;
+  }
+  .container .sestougao .oblik .content div p {
+    font-size: 1.6em;
+  }
+  #u2 p {
+    font-size: 1.9em;
+  }
+  header h1 {
+    margin-top: 460px;
+    font-size: 4.3em;
+  }
   #unt {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1409,6 +1507,22 @@ footer ol li a .fa {
   #treci {
     background-image: none;
     background-color: #17141c;
+  }
+  header i {
+    display: none;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .sestougao {
+    width: 60%;
+    margin-bottom: 50px;
   }
   #sesti {
     height: 1250px;
@@ -1470,23 +1584,17 @@ footer ol li a .fa {
     font-size: 11px;
   }
   .flip-card-back p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  #sesti {
+    height: 1250px;
   }
-  .container .sestougao {
-    width: 50%;
-    margin-bottom: 50px;
+  header h1 {
+    margin-top: 310px;
+    font-size: 3.8em;
   }
   footer {
     display: -webkit-box;
@@ -1513,8 +1621,21 @@ footer ol li a .fa {
             flex-direction: column;
   }
   .container .sestougao {
-    width: 60%;
+    width: 80%;
     margin-bottom: 50px;
+  }
+  #sesti {
+    height: 1250px;
+  }
+  #unutrasnji {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #u1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   #unt {
     -webkit-box-orient: vertical;
@@ -1523,7 +1644,7 @@ footer ol li a .fa {
             flex-direction: column;
   }
   .flip-card-back p {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -1540,11 +1661,6 @@ footer ol li a .fa {
   .container .sestougao {
     width: 80%;
     margin-bottom: 50px;
-  }
-  #u1 {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
   }
   #u2 {
     width: 70%;
