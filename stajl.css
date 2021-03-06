@@ -350,7 +350,7 @@ textarea:focus {
 
 #prvi {
   width: 100%;
-  height: 650px;
+  padding-bottom: 150px;
   background: -webkit-gradient(linear, left top, right top, color-stop(32%, black), to(#061fff));
   background: linear-gradient(90deg, black 32%, #061fff 100%);
   /*background-color:rgba(6,31,255,0.7);*/
@@ -1300,7 +1300,7 @@ footer ol li a .fa {
     margin-bottom: 20px;
   }
   .flip-card-back p {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 .pud2{
@@ -1389,7 +1389,7 @@ footer ol li a .fa {
     margin-bottom: 10px;
   }
   .flip-card p {
-    font-size: 24px;
+    font-size: 22px;
     margin: 3px;
   }
   #heder p {
@@ -1465,13 +1465,13 @@ footer ol li a .fa {
     height: 500px;
   }
   .container .sestougao .oblik .content div p {
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
   #u2 p {
     font-size: 1.9em;
   }
   header h1 {
-    font-size: 4.3em;
+    font-size: 3.8em;
   }
   #unt {
     display: -webkit-box;
@@ -1561,7 +1561,7 @@ footer ol li a .fa {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    font-size: 23px;
+    font-size: 16px;
   }
   #sesti #su #und i {
     margin: 10px;
@@ -1573,7 +1573,7 @@ footer ol li a .fa {
     font-size: 11px;
   }
   .flip-card-back p {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
@@ -1582,8 +1582,11 @@ footer ol li a .fa {
     height: 1250px;
   }
   header h1 {
-    margin-top: 250px;
-    font-size: 3.6em;
+    margin-top: 160px;
+    font-size: 3.4em;
+  }
+  label{
+    font-size:1.5em;
   }
   footer {
     display: -webkit-box;
@@ -1634,15 +1637,20 @@ footer ol li a .fa {
             flex-direction: column;
   }
   .flip-card-back p {
-    font-size: 24px;
+    font-size: 20px;
   }
   #heder p{
     font-size: 40px;
   }
+  .pud{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 @media screen and (max-width: 450px) {
   header h1{
-    margin-top:200px;
+    margin-top:170px;
     font-size: 3.0em;
   }
 }
