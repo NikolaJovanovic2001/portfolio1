@@ -1614,6 +1614,7 @@ a{
   }
   #navigacija:hover nav{
     display:initial;
+    float:none;
   }
   nav ul{
     display:block;
