@@ -1231,6 +1231,13 @@ footer ol li a .fa {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+footer ol li a .fab {
+  font-size: 40px;
+  color: #061fff;
+  background: -webkit-linear-gradient(90deg, #061fff 30%, #00f1c6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #ico{
   bottom:30px;
   right:30px;
