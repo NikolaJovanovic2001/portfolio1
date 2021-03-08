@@ -1225,14 +1225,21 @@ ol li {
 }
 
 footer ol li a .fa {
-  font-size: 40px;
+  font-size: 30px;
   color: #061fff;
   background: -webkit-linear-gradient(90deg, #061fff 30%, #00f1c6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 footer ol li a .fab {
-  font-size: 40px;
+  font-size: 30px;
+  color: #061fff;
+  background: -webkit-linear-gradient(90deg, #061fff 30%, #00f1c6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer ol li a .fas {
+  font-size: 30px;
   color: #061fff;
   background: -webkit-linear-gradient(90deg, #061fff 30%, #00f1c6 100%);
   -webkit-background-clip: text;
@@ -1417,9 +1424,6 @@ a{
   }
   #heder p {
     font-size: 50px;
-  }
-  #heder nav ul li a {
-    font-size: 20px;
   }
   #sesti {
     height: 1300px;
@@ -1607,6 +1611,7 @@ a{
   }
   #ico{
     font-size:20px;
+    margin-bottom:80px;
   }
   nav{
     display:none;
@@ -1700,6 +1705,11 @@ a{
   header h1{
     margin-top:170px;
     font-size: 3.0em;
+  }
+}
+@media screen and (max-width: 360px) {
+  footer ol li a .fa{
+    font-size:25px;
   }
 }
 @media screen and (max-width: 360px) {
